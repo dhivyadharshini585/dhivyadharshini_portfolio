@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link rel="script" href="script.js">
+</head>
+
+<body>
+
+    <!-- Custom cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- NAV -->
+    <nav>
+        <div class="logo"><span></span>P.Dhivyadharshini<span></span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-blob blob1"></div>
+        <div class="hero-blob blob2"></div>
+        <div class="hero-wrapper">
+            <div class="hero-profile">
+                <img src="profilee.png" alt="Dhivyadharshini" />
+            </div>
+            <div class="hero-content">
+                <p class="hero-tag">👋 Hello — I'm</p>
+                <h1 class="hero-name"> <span class="highlight">Dhivyadharshini</span> Here</h1>
+                <p class="hero-desc">
+                    BE Computer Science & Engineering student, 2nd year. I build things for the web, love solving problems, and am always learning something new.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            scroll
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <p class="section-label reveal">About Me</p>
+        <h2 class="section-title reveal">A little about <span class="accent-text">myself</span></h2>
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>
+                    I'm a 2nd-year BE Computer Science student passionate about technology and software development. I enjoy building projects that solve real problems and expand my skills.
+                </p>
+                <p>
+                    I actively explore new technologies, participate in coding challenges, and continuously work on improving my technical and logical skills.
+                </p>
+                <p class="accent-text accent-weight">
+                    Currently: Open to internships 🚀
+                </p>
+            </div>
+            <div class="about-stats reveal">
+                <div class="stat-card">
+                    <div class="stat-number">2nd</div>
+                    <div class="stat-label">Year of BE CSE</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2+</div>
+                    <div class="stat-label">Projects Built</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Curiosity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <p class="section-label reveal skills-section-label">Skills</p>
+        <h2 class="section-title reveal skills-section-title">What I work with</h2>
+        <div class="skills-grid">
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">// Languages</div>
+                <div class="skill-tags">
+                    <!-- <span class="skill-tag">C</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">Python</span> -->
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">JavaScript</span>
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">// Web Dev</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <!-- <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span> -->
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">// Tools & Platforms</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <!-- <span class="skill-tag">Linux</span> -->
+                </div>
+            </div>
+            <div class="skill-category reveal">
+                <div class="skill-cat-title">// CS Concepts</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">DSA</span>
+                    <span class="skill-tag">OOP</span>
+                    <span class="skill-tag">DBMS</span>
+                    <!-- <span class="skill-tag">OS</span>
+                    <span class="skill-tag">Networking</span> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <p class="section-label reveal skills-section-label">Education</p>
+        <h2 class="section-title reveal skills-section-title">My <span class="accent-text">Academic</span> Background</h2>
+        <div class="education-grid">
+            <div class="education-card reveal">
+                <div class="education-icon">🎓</div>
+                <div class="education-institution">Bachelor of Engineering (B.E.)</div>
+                <div class="education-degree">Computer Science & Engineering</div>
+                <div class="education-duration">2024 - 2028</div>
+                <div class="education-desc">Currently pursuing Computer Science and Engineering degree of 2nd year with focus on full-stack development, data structures, algorithms, and software engineering principles.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <p class="section-label reveal">Projects</p>
+        <h2 class="section-title reveal">Things I've <span class="accent-text">built</span></h2>
+        <div class="projects-grid">
+
+            <div class="project-card reveal">
+                <div class="project-icon">🌐</div>
+                <div class="project-title">Quiz Game</div>
+                <div class="project-desc">An interactive Quiz Game web app built with HTML, CSS, and JavaScript. Dynamically displays questions, validates answers, and calculates scores.</div>
+                <div class="project-tags">
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/dhivyadharshini585/Quizgame" class="project-link">⬡ GitHub</a>
+                    <a href="#" class="project-link">↗ Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-icon">🔧</div>
+                <div class="project-title">Intern-Task-Attendance</div>
+                <div class="project-desc">A console-based Attendance Management System built with Java. Manages student attendance through recording, updating, and viewing details using core Java concepts.</div>
+                <div class="project-tags">
+                    <span class="project-tag">Java</span>
+                    <!-- <span class="project-tag">Flask</span>
+                    <span class="project-tag">MySQL</span> -->
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/dhivyadharshini585/Intern-task-Attendance" class="project-link">⬡ GitHub</a>
+                    <a href="#" class="project-link">↗ Live Demo</a>
+                </div>
+            </div>
+
+            <!-- <div class="project-card reveal">
+                <div class="project-icon">📊</div>
+                <div class="project-title">Project Three</div>
+                <div class="project-desc">Another cool project — maybe a mini app, a game, or a data project from your coursework.</div>
+                <div class="project-tags">
+                    <span class="project-tag">C++</span>
+                    <span class="project-tag">DSA</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link">⬡ GitHub</a>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements">
+        <p class="section-label reveal skills-section-label">Achievements</p>
+        <h2 class="section-title reveal skills-section-title"><span class="accent-text">Recognition</span></h2>
+        <div class="achievements-grid">
+            <div class="achievement-card reveal">
+                <div class="achievement-icon">🏆</div>
+                <div class="achievement-title">Academics</div>
+                <div class="achievement-date">2024 - 2026</div>
+                <div class="achievement-desc">Recognized for excellent academic performance in Computer Science with consistent grades above 8.0 GPA.</div>
+            </div>
+            <div class="achievement-card reveal">
+                <div class="achievement-icon">💻</div>
+                <div class="achievement-title">Hackathon</div>
+                <div class="achievement-date">2024 - 2026</div>
+                <div class="achievement-desc">Won runner prize in a national level hackathon for developing an innovative solution. And won prizes in coding competitions for strong problem solvings.</div>
+            </div>
+            <!-- <div class="achievement-card reveal">
+                <div class="achievement-icon">📚</div>
+                <div class="achievement-title">Tech Contributor</div>
+                <div class="achievement-date">Ongoing</div>
+                <div class="achievement-desc">Active contributor to open-source projects and tech communities. Share knowledge through blogs and technical discussions.</div>
+            </div>
+            <div class="achievement-card reveal">
+                <div class="achievement-icon">⭐</div>
+                <div class="achievement-title">Skill Certifications</div>
+                <div class="achievement-date">2023 - 2024</div>
+                <div class="achievement-desc">Completed certifications in Web Development, JavaScript, and Data Structures & Algorithms from reputable online platforms.</div>
+            </div>
+            <div class="achievement-card reveal">
+                <div class="achievement-icon">🎓</div>
+                <div class="achievement-title">Dean's List</div>
+                <div class="achievement-date">2023, 2024</div>
+                <div class="achievement-desc">Made to the Dean's List for outstanding academic excellence and contributions to college community.</div>
+            </div>
+            <div class="achievement-card reveal">
+                <div class="achievement-icon">🚀</div>
+                <div class="achievement-title">Innovation Leader</div>
+                <div class="achievement-date">2024</div>
+                <div class="achievement-desc">Led technical initiatives and projects that improved team productivity and demonstrated strong leadership qualities.</div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <p class="section-label reveal">Contact</p>
+        <h2 class="section-title reveal">Let's <span class="accent-text">connect</span></h2>
+        <div class="contact-card reveal">
+            <div class="contact-email">ddharshini595@gmail.com</div>
+            <p class="contact-intro">
+                P.Dhivyadharshini
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/dhivyadharshini585" class="contact-link">⬡ GitHub</a>
+                <a href="https://www.linkedin.com/in/dhivyadharshini-p-a70344363/" class="contact-link">in LinkedIn</a>
+                <a href="ddharshini595@gmail.com" class="contact-link">✉ Email Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Designed &amp; Built by <span class="accent-text">Dhivyadharshini</span> </p>
+    </footer>
+
+    <script>
+        // Custom cursor
+        const cursor = document.getElementById('cursor');
+        const ring = document.getElementById('cursorRing');
+        let mx = 0,
+            my = 0,
+            rx = 0,
+            ry = 0;
+        document.addEventListener('mousemove', e => {
+            mx = e.clientX;
+            my = e.clientY;
+            cursor.style.transform = `translate(${mx - 6}px, ${my - 6}px)`;
+        });
+        (function animRing() {
+            rx += (mx - rx) * 0.12;
+            ry += (my - ry) * 0.12;
+            ring.style.transform = `translate(${rx - 18}px, ${ry - 18}px)`;
+            requestAnimationFrame(animRing);
+        })();
+        document.querySelectorAll('a, button, .project-card, .skill-category, .stat-card').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursor.style.transform += ' scale(2)';
+                ring.style.width = '60px';
+                ring.style.height = '60px';
+            });
+            el.addEventListener('mouseleave', () => {
+                ring.style.width = '36px';
+                ring.style.height = '36px';
+            });
+        });
+
+        // Scroll reveal
+        const reveals = document.querySelectorAll('.reveal');
+        const io = new IntersectionObserver(entries => {
+            entries.forEach((e, i) => {
+                if (e.isIntersecting) {
+                    setTimeout(() => e.target.classList.add('visible'), i * 80);
+                    io.unobserve(e.target);
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+        reveals.forEach(el => io.observe(el));
+
+        // Stagger project cards
+        document.querySelectorAll('.project-card').forEach((card, i) => {
+            card.style.transitionDelay = `${i * 0.1}s`;
+        });
+    </script>
+</body>
+
+</html>
