@@ -216,9 +216,11 @@ nav {
     margin-left: 0;
     padding-left: 2rem;
 }
-.hero-name {
-  white-space: normal;
-  word-break: break-word;
+
+.hero-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 90%;
 }
 
 
