@@ -217,9 +217,10 @@ nav {
     padding-left: 2rem;
 }
 .hero-name {
-  font-size: clamp(2rem, 5vw, 4rem);
-  line-height: 1.1;
-}//ch
+  white-space: normal;
+  word-break: break-word;
+}
+
 
 .hero-tag {
     font-family: 'Space Mono', monospace;
