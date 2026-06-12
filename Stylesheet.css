@@ -211,11 +211,11 @@ nav {
     object-fit: cover;
 }
 
-.hero-content {
+/* .hero-content {
     position: relative;
     margin-left: 0;
     padding-left: 2rem;
-}
+} */
 
 .hero-content {
   padding-left: 2rem;
